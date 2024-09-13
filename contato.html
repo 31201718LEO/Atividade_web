@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body  bgcolor = " Purple" text="silver" alink="wite" vlink="wite"> 
+    <table border = "1" align = "center" cellspacing = "5" cellpadding = "10" 
+    width = "1000" height = "100" bgcolor = "" background = ""
+    bordercolor = "white">
+       <tr>
+           <th colspan = "2"><h1> Inteligenca artificial </h1></th>
+           <th><h3><a href = "index.html" target = "_top" title = "Página Exemplo"> Home </a></h3></th>
+           <th><h3><a href = "sobre.html" target = "_top" title = "Página Exemplo"> Sobre </a></h3></th>
+           <th><h3><a href = "contato.html" target = "_top" title = "Página Exemplo"> Contato </a></h3></th>
+       </tr>
+   </table>
+  
+
+    <h2> Formulário HTML </h2>
+    <table width="500" align="center" bgcolor="Purple" background="">
+        <tr><td>
+
+ <fieldset>
+    <legend> Informe seus dados </legend>
+    <form action="" method="post">
+    <label> Nome: </label >
+     <input type="text" name="nome" id="nome" maxlength="80" size="30" placeholder="Digite seu nome" required/>
+     <br/> <br/>
+   
+   <label> E-mail</label >
+   <input type="text" name="mail" id="mail" maxlength="60" size="30" placeholder="Digite seu E-mail"required/>
+   <br/>  <br/>
+   
+   <label> Telefone: </label>
+   <input type="text" name="fone" id="fone" maxlength="15" size="30" placeholder="Digite seu Telefone"required/>
+   <br/>  <br/>
+   
+   <label> Data De Nascimento: </label>
+   <input type="date" name="data_nasc" id="data_nasc" min="1900-01-01" max="2006-01-01" />
+   <br/>  <br/>
+   
+   <label> Senha: </label>
+   <input type="password" name="senha" id="senha" maxlength="60" size="30" placeholder="Informe uma Senha"required/>
+   <br/>  <br/>
+   
+    <label> Sexo: </label>
+    <br/>
+    <input type="radio" name="sexo" id="sexo" value="M" required/>
+    <label> Maculino</label> 
+    <br/>
+    <input type="radio" name="sexo" id="sexo" value="F" required/>
+    <label> Feminino </label>
+    <br/>
+    <input type="radio" name=" sexo" id="sexo" value="O" required/>
+    <label> Outro </label> 
+    <br/>
+    <input type="radio" name= "sexo" id="sexo" value="Not" required/>
+    <label> Não Informar </label>
+    <br/> <br/>
+
+    <label>Comentário </label>
+    <br/>
+    <textarea name="Coment" id="Coment" cols="40" rows="10" maxlength="200" placeholder="Deixe seu comentario sobre o assunto Inteligenca artificial ...." required ></textarea>
+    <br/> <br/>
+   
+    <input type="submit" name="enviar" id="inviar" valume="ENVIAR">
+    <input type="reset" name="limpa" id="limpar" valume="LIMPAR">
+</fieldset>
+
+
+
+
